@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Будет кровь",
+    "yearOfPublishing" : 2021,
+    "author" : "Стивен Кинг",
+    "publishingHouse" : "АСТ",
+    "price" : 726,
+    "picture" : "1.jpg",
+    "rating" : 0
+  },
+  {
+    "id": 2,
+    "name": "Продвижение ВКонтакте",
+    "yearOfPublishing" : 2021,
+    "author" : "Югова Анастасия Андреевна",
+    "publishingHouse" : "АСТ",
+    "price" : 426,
+    "picture" : "2.jpg",
+    "rating" : 0
+  },
+  {
+    "id": 3,
+    "name": "Мара и Морок. 500 лет назад",
+    "yearOfPublishing" : 2021,
+    "author" : "Арден Лия",
+    "publishingHouse" : "Эксмо",
+    "price" : 453,
+    "picture" : "3.jpg",
+    "rating" : 0
+  },
+  {
+    "id": 4,
+    "name": "Тень и кость",
+    "yearOfPublishing" : 2021,
+    "author" : "Ли Бардуго",
+    "publishingHouse" : "АСТ",
+    "price" : 458,
+    "picture" : "4.jpg",
+    "rating" : 0
+  },
+  {
+    "id": 5,
+    "name": "Штурм и буря",
+    "yearOfPublishing" : 2021,
+    "author" : "Ли Бардуго",
+    "publishingHouse" : "АСТ",
+    "price" : 435,
+    "picture" : "5.jpg",
+    "rating" : 0
+  },
+  {
+    "id": 6,
+    "name": "Вход воспрещен. Культовая биография фронтмена Sex Pistols Джонни Лайдона",
+    "yearOfPublishing" : 2019,
+    "author" : "Лайдон Джон",
+    "publishingHouse" : "БОМБОРА",
+    "price" : 632,
+    "picture" : "6.jpg",
+    "rating" : 0
+  },
+  {
+    "id": 7,
+    "name": "Заводной апельсин",
+    "yearOfPublishing" : 2020,
+    "author" : "Бёрджесс Энтони",
+    "publishingHouse" : "АСТ",
+    "price" : 209,
+    "picture" : "7.png",
+    "rating" : 0
+  },
+  {
+    "id": 8,
+    "name": "Тени кафе 'Домино'",
+    "yearOfPublishing" : 2015,
+    "author" : "Эдуард Хруцкий",
+    "publishingHouse" : "ЮНИПАБЛИК",
+    "price" : 496,
+    "picture" : "8.jpg",
+    "rating" : 0
+  }
+]
