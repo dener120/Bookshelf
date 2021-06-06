@@ -15,11 +15,11 @@ input,button,select {
 }
 
 .nav-link{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 #page-logo{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .main-title{
@@ -103,7 +103,7 @@ input,button,select {
     border: 1px solid var(--select-border);
     border-radius: 0.25em;
     padding: 0.25em 0.5em;
-    font-size: 1.25rem;
+    font-size: 1rem;
     cursor: pointer;
     line-height: 1.1;
     background-color: #fff;
