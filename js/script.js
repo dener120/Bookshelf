@@ -212,7 +212,7 @@ favoritePageBtn.addEventListener('click', () => {
 
 
 function getDataRequest(url) {
-    return fetch(url)
+    return fetch(url,{mode: 'cors'})
         .then((response) => response.json());
 }
 
