@@ -27,8 +27,8 @@ dropFilter.addEventListener('click', () => {
     showBooks('', selectElementValue)
 })
 
-inputCheckList.forEach(el => {
-    el.addEventListener('click', () => {
+inputCheckList.forEach(element => {
+    element.addEventListener('click', () => {
 
         let listInputChekedsValue = getFilterParameters()
         let selectElementValue = selectElement.value;
@@ -68,8 +68,8 @@ searchBtn.addEventListener('click', () => {
     getDataRequest(requestUrl)
         .then(data => {
 
-            let result = data.filter((entry) => {
-                return entry.name.toUpperCase().indexOf(searchInputValue) !== -1;
+            let result = data.filter((book) => {
+                return book.name.toUpperCase().indexOf(searchInputValue) !== -1;
             });
 
             searchInput.value = '';
@@ -283,7 +283,7 @@ function sorting(parameterSorting, booksList) {
 
     if (parameterSorting === 'alphabetFirst') {
 
-        sortingBooksList = booksList.sort(function (obj1, obj2) {
+        sortingBooksList = booksList.sort((obj1, obj2) => {
             if (obj1.name < obj2.name) return -1;
             if (obj1.name > obj2.name) return 1;
             return 0;
@@ -291,7 +291,7 @@ function sorting(parameterSorting, booksList) {
 
     } else if (parameterSorting === 'alphabetLast') {
 
-        sortingBooksList = booksList.sort(function (obj1, obj2) {
+        sortingBooksList = booksList.sort((obj1, obj2) => {
             if (obj1.name > obj2.name) return -1;
             if (obj1.name < obj2.name) return 1;
             return 0;
@@ -299,19 +299,19 @@ function sorting(parameterSorting, booksList) {
 
     } else if (parameterSorting === 'ratingFirst') {
 
-        sortingBooksList = booksList.sort(function (obj1, obj2) {
+        sortingBooksList = booksList.sort((obj1, obj2) => {
             return obj2.rating - obj1.rating;
         });
 
     } else if (parameterSorting === 'ratingLast') {
 
-        sortingBooksList = booksList.sort(function (obj1, obj2) {
+        sortingBooksList = booksList.sort((obj1, obj2) => {
             return obj1.rating - obj2.rating;
         });
 
     } else if (parameterSorting === 'newFirst') {
 
-        sortingBooksList = booksList.sort(function (obj1, obj2) {
+        sortingBooksList = booksList.sort((obj1, obj2) => {
             return parseInt(obj2.yearOfPublishing) - parseInt(obj1.yearOfPublishing);
         });
 
